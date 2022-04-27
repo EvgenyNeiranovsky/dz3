@@ -1,0 +1,33 @@
+@import './main/reset.scss';
+@import './main/vars.scss';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: #f7f7f7;
+    color: $primary-text-color;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 121%;
+}
+
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.subtitle {
+
+    span{}
+
+}
+
+
+@import './components/categories.scss';
+@import './components/slider.scss';
